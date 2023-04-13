@@ -235,7 +235,7 @@ nav ul li span{
     margin-top: 0;
 }
 footer h1{
-    color:rgba(185, 19, 243, 1) ;
+    color:rgba(255, 215, 2, 1) ;
     font-size: 36px;
     font-family: 'Old Standard TT', serif;
     margin-left: 7rem;
@@ -248,7 +248,7 @@ footer h2{
     margin-left: 30%;
 }
 footer h2 span{
-    color:rgba(185, 19, 243, 1) ;
+    color:rgba(255, 215, 2, 1) ;
 }
 footer .firstrow{
     display: flex;
@@ -258,7 +258,7 @@ footer .firstrow{
 footer input{
     width: 410px;
     height: 10vh;
-    border: 1px solid #B913F3;
+    border: 1px solid rgba(255, 215, 2, 1);
     border-radius: 20px;
     padding: 12px;
 
@@ -290,7 +290,7 @@ input[type=submit] {
     margin-top: 3rem;
     margin-left: 30%;
     margin-bottom: 3rem;
-    background-color:#B913F3 ;
+    background-color:rgba(255, 215, 2, 1) ;
     color: white;
     padding: 12px 20px;
     border: none;
