@@ -213,27 +213,6 @@ nav ul li span{
 .what .web2 a{
     text-decoration: none;
 }
-.view{
-    width: 250px;
-    height: 50px;
-    background: #FFD700;
-    border-radius: 10px;
-    margin-left: 38%;
-    margin-top: 5rem;
-}
-.what .view:hover{
-    background-color:rgba(185, 19, 243, 1) ;
-}
-.what .view a{
-    text-decoration: none;
-}
-.view h1{
-    background: none;
-    font-size: 30px;
-    color: white;
-    margin-left: 4rem;
-    margin-top: 0;
-}
 footer h1{
     color:rgba(255, 215, 2, 1) ;
     font-size: 36px;
@@ -404,9 +383,12 @@ footer p{
     .web2{
         flex-direction: column;
     }
+    .des{
+        margin-left: 3rem;
+    }
     .des2{
         margin-top: 2rem;
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
     
     .view{
@@ -455,5 +437,6 @@ footer p{
     input[type=submit] {
         width: 300px;
         height: 90px;
+        margin-left: 45%;
     }
 }
