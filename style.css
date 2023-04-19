@@ -227,21 +227,17 @@ footer .firstrow{
     margin-left: 7rem;
 }
 footer input{
-    width: 410px;
+    width: 350px;
     height: 10vh;
     border: 1px solid rgba(255, 215, 2, 1);
     border-radius: 20px;
     padding: 12px;
-
-}
-footer input:hover{
-    border: 1px solid #FFD700;
 }
 ::placeholder{
     font-family: 'Old Standard TT', serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 20px;
+    color: #bebebe;
 }
 footer .secondrow{
     display: flex;
