@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["fname"];
     $email = $_POST["email"];
     $message = $_POST["message"];
-    $phoneNumber = $_POST["number"]
+    $phoneNumber = $_POST["number"];
   
     // Set the recipient email address
     $to = "olufemiorezi@gmail.com";
