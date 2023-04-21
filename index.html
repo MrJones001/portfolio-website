@@ -61,32 +61,34 @@
     </section>
     <section class="what" id="services">
         <h1>Services</h1>
-    
-
+        <div class="webdes" id="slid">
+            <img src="images/web designer.svg" alt="web">
+        </div>
+        <div class="uiux" id="slid">
+            <img src="images/uiux designer.svg" alt="uiux">
+        </div>
+        <div class="mobdes" id="slid">
+            <img src="images/mobile app.svg" alt="mobile">
+        </div>
     </section>
     <footer id="contact">
         <h1>Contact</h1>
         <h2>Contact <span>With Me</span></h2>
-        <div class="firstrow">
-            <form action="https://formspree.io/f/mlekajzn" method="POST">
-                <label for="fname">Full Name</label>
-                <input type="text" id="fname" required style="color: white; font-size: 16px; font-family: 'Old Standard TT', serif;" name="fullname" placeholder="Enter Your Name">
-                <form action="">
-                <form action="https://formspree.io/f/mlekajzn" method="POST">
-                    <label for="Number">Phone Number</label>
-                    <input type="text" id="Number" required style="color: white; font-size: 16px; font-family: 'Old Standard TT', serif;" name="phonenumber" placeholder="Enter Your Phone Number">
-        </div>
-        <div class="secondrow">
-            <form action="https://formspree.io/f/mlekajzn" method="POST">
-                <label for="email">Email</label>
-                <input type="email" id="email" required style="color: white; font-size: 16px; font-family: 'Old Standard TT', serif;" name="email" placeholder="Enter Your Email">
-                <form action="https://formspree.io/f/mlekajzn" method="POST">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" required style="color: white; font-size: 16px; font-family: 'Old Standard TT', serif;" name="subject" placeholder="Subject">
-        </div>
-        <label for="message">Message</label>
-        <textarea class="message" id="message" name="message" placeholder="Enter Your Message" style=" width:400px ;height: 45vh;border: 1px solid rgba(255, 215, 2, 1);border-radius:20px;padding: 12px; margin-left: 25%; margin-top: 4rem;color: white; font-size: 16px; font-family: 'Old Standard TT', serif;"></textarea>
-        <input class="send" type="submit" value="Send Message" style="font-size: 30px; font-family: 'Old Standard TT', serif;">
+        <form action="https://formspree.io/f/mlekajzn" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Full Name" required>
+
+            <label for="Number">Phone Number:</label>
+            <input type="text" id="number" placeholder="Enter Your Phone Number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Your Email Address" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter Your Message" rows="5" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
         <p>&copy Copyright 2023 by Jones Olufemi.</p>
     </footer>
 </body>
