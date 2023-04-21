@@ -79,7 +79,9 @@ nav ul li span{
     margin-bottom: 3rem;
     margin-left: 5rem;
 }
-
+.intro .recimg2{
+    display: none;
+}
 .greet img{
     margin-top: 4rem;
     margin-left: 5rem;
@@ -194,7 +196,7 @@ form {
     border: 3px solid #FFD700;
     border-radius: 1rem;
     font-size: 16px;
-    width: 500px;
+    width: 400px;
     font-family: 'Old Standard TT', serif;
     height: 10vh;
     color: white;
@@ -203,7 +205,7 @@ form {
     padding: 10px;
     margin-bottom: 1.5rem;
     border: 3px solid #FFD700;
-    border-radius: 5px;
+    border-radius: 1rem;
     font-size: 16px;
     width: 500px;
     font-family: 'Old Standard TT', serif;
@@ -217,7 +219,7 @@ form {
     border-radius: 0.7rem;
     cursor: pointer;
     font-size: 16px;
-    width: 400px;
+    width: 200px;
     height: 10vh;
     font-family: 'Old Standard TT', serif;
     font-size: 2rem;
@@ -259,7 +261,7 @@ body{
     .logo{
         margin-top: 0.2rem;
         height: 6vh;
-        width: 10vh;
+        width: 5vh;
         margin-left: 50%;
     }
     nav{
@@ -283,10 +285,14 @@ body{
         flex-direction: column;
     }
     .intro .recimg{
-        width: 25rem;
-        height: 70vh;
+       display: none;
+    }
+    .intro .recimg2{
+        display: block;
+        width: 22rem;
+        height: 65vh;
         margin-bottom: 1rem;
-        margin-left: 2rem;
+        margin-left: 4rem;
         padding: 1.5rem;
     }
     .greet{
@@ -341,12 +347,13 @@ body{
     .story .cont h1{
         font-size: 40px;
         margin-left: 4.5rem;
+        width: 70px;
     }
     .story .cont p{
         margin-top: 1rem;
         font-size: 0.5rem;
         margin-left: 3.5rem;
-        padding-right: 1.5rem;
+        padding-right: 4rem;
     }
     .what h1{
         font-size: 20px;
