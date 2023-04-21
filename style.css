@@ -104,12 +104,6 @@ nav ul li span{
     margin-top: 0.3rem;
     margin-left: 1.5rem;
 }
-.greet .talk .let:hover{
- background: none;
-}
-.talklink{
-    text-decoration: none;
-}
 .greet h1{
     color: white;
     margin-top: 1rem;
@@ -121,9 +115,6 @@ nav ul li span{
     margin-top: 2rem;
     color:rgba(155, 149, 149, 1);
     font-family:'Mitr', sans-serif ;
-}
-.talk{
-    margin-top: 3rem;
 }
 .working{
     margin-left: 7rem;
@@ -160,6 +151,10 @@ nav ul li span{
     margin-left: 15%;
     cursor: pointer;
     width: 80vh;
+}
+.what-content img{
+    width: 100vh;
+    margin-left: 7rem;
 }
 footer h1{
     color:rgba(255, 215, 2, 1) ;
@@ -266,7 +261,7 @@ body{
     }
     nav{
         flex-direction: column;
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
     nav h1{
         margin-top: 1rem;
@@ -293,11 +288,11 @@ body{
         width: 22rem;
         height: 40vh;
         margin-bottom: 1rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
         padding: 1.5rem;
     }
     .greet{
-        margin-left: 20%;
+        margin-left: 6rem;
     }
     .greet img{
         margin-top: 1rem;
@@ -320,7 +315,7 @@ body{
     .working{
         height: 5vh;
         margin-top: 0;
-        margin-left: 4rem;
+        margin-left: 6rem;
     }
     .greet .talk{
         width: 150px;
@@ -424,7 +419,7 @@ body{
     .story .mask{
         margin-top: 2rem;
         margin-left: 2.5rem;
-        height: 70vh;
+        height: 35vh;
         width: 250px;
     }
     .what img{
