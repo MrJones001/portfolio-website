@@ -40,6 +40,7 @@ nav{
     margin-top: 1rem;
     margin-left: 6rem;
     display: flex;
+    transition: 0.5s;
 }
 nav h1{
     color: white;
@@ -141,14 +142,10 @@ nav ul li span{
 }
 .story .cont p{
     color: white;
-    font-size: 11px;
+    font-size: 1.2rem;
     font-family: 'Vidaloka', serif;
-    margin-left: 10rem;   
-}
-.uiux{
-    margin-top: 4rem;
-    margin-left: 12rem;
-    height: 15vh;
+    margin-left: 10rem;  
+    padding-right: 7rem; 
 }
 .what h1{
     margin-top: 3rem;
@@ -156,57 +153,6 @@ nav ul li span{
     color:rgba(255, 215, 0, 1) ;
     font-size: 30px;
     font-family: 'Mitr', sans-serif ;
-}
-.web1{
-    display: flex;
-    margin-left: 7rem;
-    margin-top: 5rem;
-}
-.what .web1 .des:hover{
-    background-color:rgba(185, 19, 243, 1);
-}
-.what .web1 .des2:hover{
-    background-color:rgba(185, 19, 243, 1);
-}
-.web1 h1{
-    font-size: 24px;
-}
-
-.web2 h1{
-    font-size: 24px;
-}
-.des{
-    margin-left: 5rem;
-    width: 400px;
-    height: 110px;
-    background: #111111;
-    border-radius: 5px;
-    display: flex;
-}
-.des2{
-    width: 400px;
-    height: 110px;
-    background: #111111;
-    border-radius: 5px;
-    margin-left: 10rem;
-    display: flex;
-}
-.web2{
-    display: flex;
-    margin-left: 7rem;
-    margin-top: 5rem;
-}
-.what .web2 .des:hover{
-    background-color:rgba(185, 19, 243, 1);
-}
-.what .web2 .des2:hover{
-    background-color:rgba(185, 19, 243, 1);
-}
-.what .web1 a{
-    text-decoration: none;
-}
-.what .web2 a{
-    text-decoration: none;
 }
 footer h1{
     color:rgba(255, 215, 2, 1) ;
@@ -383,37 +329,10 @@ body{
         margin-top: 1rem;
         font-size: 1rem;
         margin-left: 4rem;
-    }
-    .uiux{
-        margin-top: 2rem;
-        margin-left: 4rem;
-        height: 6vh;
+        padding-right: 1rem;
     }
     .what h1{
         font-size: 20px;
-    }
-    .web1{
-        flex-direction: column;
-        margin-left: 4rem;
-    }
-    .web2{
-        flex-direction: column;
-        margin-left: 4rem;
-    }
-    .des{
-        margin-left: 0;
-    }
-    .des2{
-        margin-top: 2rem;
-        margin-left: 0;
-    }
-    
-    .view{
-        margin-left: 50%;
-    }
-    .view h1{
-        margin-left: 0;
-        text-align: center;
     }
     footer h1{
         font-size: 24px;
@@ -466,21 +385,6 @@ body{
     }
     .story .cont p{
         margin-left: 7rem;
-    }
-    .uiux{
-        margin-left: 7rem;
-    }
-    .des{
-        margin-left: 1rem;
-    }
-    .des2{
-        margin-left: 1rem;
-    }
-    .web1{
-        margin-left: 5rem;
-    }
-    .web2{
-        margin-left: 5rem;
     }
     footer .firstrow{
         flex-direction: column;
