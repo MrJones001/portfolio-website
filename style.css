@@ -66,7 +66,8 @@ nav ul li a{
     line-height: 31px;
 }
 nav ul li a:hover{
-    color:rgba(255, 215, 0, 1) ;
+    color:rgba(255, 215, 0, 1);
+    font-size: 1.2rem;
 }
 nav ul li span{
     color: rgba(185, 19, 243, 1);
@@ -155,6 +156,12 @@ nav ul li span{
 .what-content img{
     width: 100vh;
     margin-left: 7rem;
+    margin-top: 2rem;
+    transition: transform 0.3s ease-out;
+}
+.what-content img:hover{
+    opacity: 0.3;
+    transform: scale(1.2);
 }
 footer h1{
     color:rgba(255, 215, 2, 1) ;
