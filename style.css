@@ -255,8 +255,8 @@ body{
     }
     .logo{
         margin-top: 0.2rem;
-        height: 6vh;
-        width: 5vh;
+        height: 9vh;
+        width: 10vh;
         margin-left: 50%;
     }
     nav{
@@ -347,9 +347,12 @@ body{
     }
     .story .cont p{
         margin-top: 1rem;
-        font-size: 0.5rem;
+        font-size: 1rem;
         margin-left: 3.5rem;
-        padding-right: 4rem;
+        padding-right: 2rem;
+    }
+    .what{
+        width: 300px;
     }
     .what h1{
         font-size: 20px;
@@ -373,6 +376,7 @@ body{
         font-size: 1rem;
         margin-top: 1rem;
         margin-left: 40px;
+        width: 300px;
     }
     input{
         width: 300px;
