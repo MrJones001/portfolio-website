@@ -258,13 +258,13 @@ body{
         height: 10vh;
     }
     .side{
-        margin-left: 0.2rem;
+        margin-left: 0.5rem;
     }
     .logo{
         margin-top: 0.2rem;
         height: 9vh;
         width: 10vh;
-        margin-left: 50%;
+        margin-left: 10rem;
     }
     nav{
         flex-direction: column;
@@ -272,7 +272,7 @@ body{
     }
     nav h1{
         margin-top: 1rem;
-        margin-left: 40%;
+        margin-left: 7rem;
         width: 300px;
         line-height: 10px;
     }
@@ -299,7 +299,7 @@ body{
         padding: 1.5rem;
     }
     .greet{
-        margin-left: 6rem;
+        margin-left: 4rem;
     }
     .greet img{
         margin-top: 1rem;
@@ -335,27 +335,31 @@ body{
         width: 20px;
         height: 7vh; 
     }
+    .what{
+        width: auto;
+    }
     #slid{
         width: 35vh;
+        margin-left: 7rem;
     }
     .story{
         flex-direction: column;
     }
     .story .mask{
         margin-top: 2rem;
-        margin-left: 2rem;
+        margin-left: 4rem;
         height: 40vh;
-        width: 70%;
+        width: 300px;
     }
     .story .cont h1{
         font-size: 40px;
-        margin-left: 4.5rem;
+        margin-left: 6rem;
         width: 70px;
     }
     .story .cont p{
         margin-top: 1rem;
         font-size: 1rem;
-        margin-left: 3.5rem;
+        margin-left: 5rem;
         padding-right: 2rem;
     }
     .what{
@@ -363,7 +367,7 @@ body{
     }
     .what h1{
         font-size: 20px;
-        margin-left: 3rem;
+        margin-left: 6rem;
     }
     .what img{
         margin-left: 0;
@@ -382,7 +386,7 @@ body{
     form{
         font-size: 1rem;
         margin-top: 1rem;
-        margin-left: 40px;
+        margin-left: 60px;
         width: 300px;
     }
     input{
