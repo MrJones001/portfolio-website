@@ -160,7 +160,7 @@ nav ul li span{
     transition: transform 0.3s ease-out;
 }
 .what-content img:hover{
-    opacity: 0.3;
+    opacity: 1;
     transform: scale(1.2);
 }
 footer h1{
